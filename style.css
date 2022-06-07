@@ -1,0 +1,50 @@
+.header {
+    display: flex;
+    flex-direction: column;
+    height: 260px;
+    background-color: rgb(44, 41, 73);
+    color: white;
+}
+
+.header-top {
+    display: flex;
+    flex-direction: row;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.header-top h3 {
+    display: flex;
+    align-items: flex-start;
+    margin: 10px;
+}
+
+.header-top .links {
+    display: flex;
+    margin-left: auto;
+    margin-right: 10px;
+    gap: 30px;
+}
+
+.header-bottom {
+    display: flex;
+    flex-direction: column;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+.header-bottom h1 {
+    display: flex;
+}
+
+.header-bottom p {
+    display: flex;
+    color: rgba(255, 255, 255, 0.719);
+    font-size: 15px;
+    width: 250px;
+}
+
+.header-bottom button {
+    display: flex;
+    justify-content: center;
+    width: 250px;
+}
