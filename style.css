@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: column;
     height: 260px;
-    background-color: rgb(44, 41, 73);
+    background-color: #1f2937;
     color: white;
 }
 
@@ -47,4 +47,34 @@
     display: flex;
     justify-content: center;
     width: 250px;
+}
+
+.info-one {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.info-one h2 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+.info-one .info-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 100px
+}
+
+.info-row .block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 200px;
+    height: 200px;
+    text-align: center;
 }
